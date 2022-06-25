@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Passenger Counter App</title>
+
+  <!-- Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="Images/Favicon.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="heading">
+    <h1>Passenger Counter</h1>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <h2>People Entered</h2>
+
+    <!-- Counter -->
+    <h3 id="counter-el">0</h3>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button id="increment-btn" onclick="increment()"><img class="add-btn" src="Images/Add.svg"></button>
+      <button id="save-btn" onclick="save()"><img class="save-btn" src="Images/Save.svg"></button>
+    </div>
+
+    <p>Previous entires: </p>
+    <textarea id="save-el" rows="5" cols="30" readonly></textarea>
+
+  </main>
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
