@@ -48,10 +48,9 @@
 
 ### What I Learnt
 
-- Working on this project gave me a basic introduction to JavaScript. I learnt about declaring variables, using various data types (like string, number, boolean etc) to assign values to variables and creating functions to perform a specific task.
-
-- On the CSS side, I used rem for font-size so that we can make the design responsive by adjusting the font-size of the root element in the media query.
-
+- Customization of SVG icon colors with CSS filters
+- Use of rem for font-size instead of fixed units like px in order to make the design responsive by simply adjusting the font-size of the root element in the media query
+- Basics of JavaScript like declaring variables, using various data types (string, number, boolean etc) to assign values to variables and creating functions to perform a specific task
 
 
 ### Useful Resources
